@@ -4,6 +4,7 @@ class App < Sinatra::Base
 
   get '/' do
     erb :index
-    <%= "I love " + "Ruby!!" %>
   end
+
+  <%= "I love " + "Ruby!!" %>
 end
